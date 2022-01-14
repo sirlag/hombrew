@@ -39,24 +39,24 @@
                 {
                     "expanded": {
                         "s1": [
-                            "Colour Spray",
-                            "Feather Fall"
+                            "colour spray",
+                            "feather fall"
                         ],
                         "s2": [
-                            "Alter Self",
-                            "Knock"
+                            "alter self",
+                            "knock"
                         ],
                         "s3": [
-                            "Tiny Servant",
-                            "Blink"
+                            "tiny servant",
+                            "blink"
                         ],
                         "s4": [
-                            "Polymorph",
-                            "Control Water"
+                            "polymorph",
+                            "control water"
                         ],
                         "s5": [
-                            "Animate Objects",
-                            "Telekinesis"
+                            "animate objects",
+                            "telekinesis"
                         ]
                     }
                 }
