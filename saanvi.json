@@ -25,7 +25,7 @@
                 "Feather Fall",
                 "Alter Self",
                 "Knock",
-                "Tiny Servant",
+                "Tiny Servant|XGE",
                 "Blink",
                 "Polymorph",
                 "Control Water",
@@ -51,7 +51,7 @@
                             "knock"
                         ],
                         "s3": [
-                            "tiny servant",
+                            "tiny servant|XGE",
                             "blink"
                         ],
                         "s4": [
@@ -102,7 +102,7 @@
                                 ],
                                 [
                                     "3rd",
-                                    "{@spell tiny servant}, {@spell blink}"
+                                    "{@spell tiny servant|XGE}, {@spell blink}"
                                 ],
                                 [
                                     "4th",
