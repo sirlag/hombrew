@@ -1,4 +1,20 @@
 {
+    "_meta" : {
+        "sources" : [
+            {
+                "json":"KC:SF",
+                "abbreviation":"KC:SF",
+                "full": "Otherworly Patron: Saanvi's Friend",
+                "version" : "0.2",
+                "authors" : [
+                    "Kimchi98"
+                ],
+                "convertedBy" : [
+                    "SirLag"
+                ]
+            }
+        ]
+    },
     "subclass": [
         {
             "name": "Otherworldly Patron: Saanvi's Friend",
@@ -83,6 +99,75 @@
                     "type": "refSubclassFeature",
                     "subclassFeature": "Whatever Magicks|Warlock||Saanvi's Friend|KC:SF|1"
                 }
+            ]
+        },
+        {
+            "name": "Whatever Magicks",
+            "source": "KC:SF",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Saanvi's Friend",
+            "subclassSource": "KC:SF",
+            "level": 1,
+            "header" : 1,
+            "entires": [
+                "Saanvi has better things to do than to baby her followers and teach them the mystical ways of the darkened path. Instead, she likes to expedite learning with the magick learning bonk stick. Bonk Whatever, magick! Beginning at 1st level, when you cast a warlock spell of 1st-level or higher, you can replace its damage type with a damage type from another warlock spell you know, altering the spell for this casting only."
+            ]
+        },
+        {
+            "name": "GTFO",
+            "source": "KC:SF",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Saanvi's Friend",
+            "subclassSource": "KC:SF",
+            "level": 6,
+            "header" : 2,
+            "entires": [
+                "Sometimes shit hits the fan and you gotta go; Saanvi has bestowed upon you the gift to, in her words, \"slither away like smol sad baby snek\". Beginning at 6th level, when you are hit by an attack, you can use your reaction to instantly teleport through the Astral Plane, causing the triggering attack to miss. You then immediately reappear in an unoccupied space of your choice within 30 feet of where you disappeared.",
+                "Once you use this reaction to evade an attack, you must finish a short or long rest before you can use it again."
+            ]
+        },
+        {
+            "name": "Double Slappa",
+            "source": "KC:SF",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Saanvi's Friend",
+            "subclassSource": "KC:SF",
+            "level": 6,
+            "header" : 2,
+            "entires": [
+                "It's fun to hit things more than once; Saanvi inspires you with gremlin ferver to be as brave or as foolish to swing twice. Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+            ]
+        },
+        {
+            "name": "Best Friends... Forever",
+            "source": "KC:SF",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Saanvi's Friend",
+            "subclassSource": "KC:SF",
+            "level": 10,
+            "header" : 2,
+            "entires": [
+                "Saanvi really likes having you around as a playmate. Old people are too fragile and so are corpses so Saanvi gives you the gift of friendship forever, or at least: a very long time for you silly mortals. Starting at 10th level, you no longer require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from both short and long rests.",
+                "In addition, for every 10 years that pass, your body ages only 1 year, and you are immune to being aged by magic."
+            ]
+        },
+        {
+            "name": "Snack for Saanvi",
+            "source": "KC:SF",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Saanvi's Friend",
+            "subclassSource": "KC:SF",
+            "level": 10,
+            "header" : 2,
+            "entires": [
+                "Being a god is hard work; maybe as a thanks you should send Saanvi a delicious treat. Starting at 14th level, when you hit a creature with an attack, you can force them to make a Charisma saving throw in place of dealing damage. On a failed save, Saanvi's astrally projected couatl form swallows the creature whole and chews on them for up to 1 minute, or until you lose concentration on this ability.",
+                "When this feature ends, Saanvi spits them out and the banished creature returns to the space that it was previously occupying (or the nearest unoccupied space) and must make an additional Charisma saving throw, taking 5d10 force damage on a failed save, half on a success. Yum.",
+                "Once you use this feature to banish a creature you must finish a long rest before you can use it again."
             ]
         }
     ]
