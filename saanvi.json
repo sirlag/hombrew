@@ -5,7 +5,7 @@
                 "json": "KC:SF",
                 "abbreviation": "KC:SF",
                 "full": "Otherworldly Patron: The Pandemonium",
-                "version": "0.3",
+                "version": "0.4",
                 "authors": [
                     "Kimchi98"
                 ],
@@ -34,7 +34,7 @@
             ],
             "subclassFeatures": [
                 "Saanvi's Friend|Warlock||Pandemonium|KC:SF|1",
-                "GTFO|Warlock||Pandemonium|KC:SF|6",
+                "Play Rough|Warlock||Pandemonium|KC:SF|6",
                 "Best Friends... Forever|Warlock||Pandemonium|KC:SF|10",
                 "Snack for Saanvi|Warlock||Pandemonium|KC:SF|14"
             ],
@@ -129,7 +129,7 @@
             ]
         },
         {
-            "name": "GTFO",
+            "name": "Play Rough",
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
@@ -140,23 +140,7 @@
             "entries": [
                 "Sometimes shit hits the fan and you gotta go; Saanvi has bestowed upon you the gift to, in her words, \"slither away like smol sad baby snek\". Beginning at 6th level, when you are hit by an attack, you can use your reaction to instantly teleport through the Astral Plane, causing the triggering attack to miss. You then immediately reappear in an unoccupied space of your choice within 30 feet of where you disappeared.",
                 "Once you use this reaction to evade an attack, you must finish a short or long rest before you can use it again.",
-                {
-					"type": "refSubclassFeature",
-					"subclassFeature": "Double Slappa|Warlock||Pandemonium|KC:SF|6"
-				}
-            ]
-        },
-        {
-            "name": "Double Slappa",
-            "source": "KC:SF",
-            "className": "Warlock",
-            "classSource": "PHB",
-            "subclassShortName": "Pandemonium",
-            "subclassSource": "KC:SF",
-            "level": 6,
-            "header": 2,
-            "entries": [
-                "It's fun to hit things more than once; Saanvi inspires you with gremlin fervor to be as brave or as foolish to swing twice. Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+                "Additionally, it is fun to hit things more than once; Saanvi inspires you with gremlin fervor to be either brave or foolish enough to swing twice. When you take the Attack action on your turn, you can attack twice instead of once."
             ]
         },
         {
