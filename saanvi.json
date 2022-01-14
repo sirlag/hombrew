@@ -4,8 +4,8 @@
             {
                 "json": "KC:SF",
                 "abbreviation": "KC:SF",
-                "full": "Otherworldly Patron: Saanvi's Friend",
-                "version": "0.2",
+                "full": "Otherworldly Patron: The Pandemonium",
+                "version": "0.3",
                 "authors": [
                     "Kimchi98"
                 ],
@@ -17,8 +17,8 @@
     },
     "subclass": [
         {
-            "name": "Saanvi's Friend",
-            "shortName": "Saanvi's Friend",
+            "name": "The Pandemonium",
+            "shortName": "Pandemonium",
             "source": "KC:SF",
             "subclassSpells": [
                 "Color spray",
@@ -33,11 +33,10 @@
                 "Telekinesis"
             ],
             "subclassFeatures": [
-                "Saanvi's Friend|Warlock||Saanvi's Friend|KC:SF|1",
-                "GTFO|Warlock|Saanvi's Friend||KC:SF|6",
-                "Double Slappa|Warlock||Saanvi's Friend|KC:SF|6",
-                "Best Friends... Forever|Warlock||Saanvi's Friend|KC:SF|10",
-                "Snack for Saanvi|Warlock||Saanvi's Friend|KC:SF|14"
+                "Saanvi's Friend|Warlock||Pandemonium|KC:SF|1",
+                "GTFO|Warlock||Pandemonium|KC:SF|6",
+                "Best Friends... Forever|Warlock||Pandemonium|KC:SF|10",
+                "Snack for Saanvi|Warlock||Pandemonium|KC:SF|14"
             ],
             "additionalSpells": [
                 {
@@ -75,14 +74,14 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Pandemonium",
             "subclassSource": "KC:SF",
             "level": 1,
             "entries": [
-                        "Being Saanvi's Friend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                        "The Pandemonium lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
                         {
                             "type": "table",
-                            "caption": "Saanvi's Friend Expanded Spells",
+                            "caption": "Pandemonium Expanded Spells",
                             "colLabels": [
                                 "Spell Level",
                                 "Spells"
@@ -121,7 +120,7 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Pandemonium",
             "subclassSource": "KC:SF",
             "level": 1,
             "header": 1,
@@ -134,13 +133,17 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Pandemonium",
             "subclassSource": "KC:SF",
             "level": 6,
             "header": 2,
             "entries": [
                 "Sometimes shit hits the fan and you gotta go; Saanvi has bestowed upon you the gift to, in her words, \"slither away like smol sad baby snek\". Beginning at 6th level, when you are hit by an attack, you can use your reaction to instantly teleport through the Astral Plane, causing the triggering attack to miss. You then immediately reappear in an unoccupied space of your choice within 30 feet of where you disappeared.",
-                "Once you use this reaction to evade an attack, you must finish a short or long rest before you can use it again."
+                "Once you use this reaction to evade an attack, you must finish a short or long rest before you can use it again.",
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Double Slappa|Warlock||Pandemonium|KC:SF|6"
+				}
             ]
         },
         {
@@ -148,7 +151,7 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Pandemonium",
             "subclassSource": "KC:SF",
             "level": 6,
             "header": 2,
@@ -161,7 +164,7 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Pandemonium",
             "subclassSource": "KC:SF",
             "level": 10,
             "header": 2,
@@ -175,7 +178,7 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Pandemonium",
             "subclassSource": "KC:SF",
             "level": 14,
             "header": 2,
@@ -190,18 +193,18 @@
 			"source": "KC:SF",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Saanvi's Friend",
+			"subclassShortName": "Pandemonium",
 			"subclassSource": "KC:SF",
 			"level": 1,
 			"entries": [
                 "Saanvi: The Shadow Walker: Commander of Night and Bringer of Swift Vengeance: Wielder of the Sevenfold Twilight Scythe: Leader of the Order of the Changing One: Descendant of the Mighty Zehir: Lord of Darkness is the god of chaos. Her area of magic is within the Illusion and Transmutation schools of magic. Her alignment is Chaotic Neutral. She concerns her self mostly with her personal whims and seeing chaos or gremlin energy happen.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Expanded Spell List|Warlock||Saanvi's Friend|KC:SF|1"
+					"subclassFeature": "Expanded Spell List|Warlock||Pandemonium|KC:SF|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Whatever Magicks|Warlock||Saanvi's Friend|KC:SF|1"
+					"subclassFeature": "Whatever Magicks|Warlock||Pandemonium|KC:SF|1"
 				}
 			]
 		}
