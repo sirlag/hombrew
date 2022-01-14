@@ -21,7 +21,7 @@
             "shortName": "Saanvi's Friend",
             "source": "KC:SF",
             "subclassSpells": [
-                "Colour Spray",
+                "Color spray",
                 "Feather Fall",
                 "Alter Self",
                 "Knock",
@@ -33,13 +33,17 @@
                 "Telekinesis"
             ],
             "subclassFeatures": [
-                "Saanvi's Friend|Warlock||Saanvi's Friend|KC:SF|1"
+                "Saanvi's Friend|Warlock||Saanvi's Friend|KC:SF|1",
+                "GTFO|Warlock|Saanvi's Friend||KC:SF|6",
+                "Double Slappa|Warlock||Saanvi's Friend|KC:SF|6",
+                "Best Friends... Forever|Warlock||Saanvi's Friend|KC:SF|10",
+                "Snack for Saanvi|Warlock||Saanvi's Friend|KC:SF|14"
             ],
             "additionalSpells": [
                 {
                     "expanded": {
                         "s1": [
-                            "colour spray",
+                            "color spray",
                             "feather fall"
                         ],
                         "s2": [
@@ -90,7 +94,7 @@
                             "rows": [
                                 [
                                     "1st",
-                                    "{@spell colour spray}, {@spell feather fall}"
+                                    "{@spell color spray}, {@spell feather fall}"
                                 ],
                                 [
                                     "2nd",
