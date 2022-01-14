@@ -1,9 +1,9 @@
 {
-    "subclass" : [
+    "subclass": [
         {
-            "name": "Saanvi's Friend",
-            "shortName": "Saanvi",
-            "source": "SaanviFriend",
+            "name": "Otherworldly Patron: Saanvi's Friend",
+            "shortName": "Saanvi's Friend",
+            "source": "KC:SF",
             "subclassSpells": [
                 "Colour Spray",
                 "Feather Fall",
@@ -17,14 +17,73 @@
                 "Telekinesis"
             ],
             "subclassFeatures": [
-                "Whatever Magicks|Warlock|Saanvi|SaanviFriend|1",
-                "GTFO|Warlock|Saanvi|SaanviFriend|6",
-                "Double Slappa|Warlock|Saanvi|SaanviFriend|6",
-                "Best Friends... Forever|Warlock|Saanvi|SaanviFriend|10",
-                "Snack for Saanvi|Warlock|Saanvi|SaanviFriend|14"
+                "Whatever Magicks|Warlock||Saanvi's Friend|KC:SF|1",
+                "GTFO|Warlock|Saanvi's Friend||KC:SF|6",
+                "Double Slappa|Warlock||Saanvi's Friend|KC:SF|6",
+                "Best Friends... Forever|Warlock||Saanvi's Friend|KC:SF|10",
+                "Snack for Saanvi|Warlock||Saanvi's Friend|KC:SF|14"
             ],
-            "className" : "Warlock",
-            "classSource" : "PHB"
+            "className": "Warlock",
+            "classSource": "PHB"
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Otherworldly Patron: Saanvi's Friend",
+            "source": "KC:SF",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Saanvi's Friend",
+            "subclassSource": "KC:SF",
+            "level": 1,
+            "entires": [
+                "Saanvi: The Shadow Walker: Commander of Night and Bringer of Swift Vengeance: Wielder of the Sevenfold Twilight Scythe: Leader of the Order of the Changing One: Descendant of the Mighty Zehir: Lord of Darkness is the god of chaos. Her area of magic is within the Illusion and Transmutation schools of magic. Her alignment is Chaotic Neutral. She concerns her self mostly with her personal whims and seeing chaos or gremlin energy happen.",
+                {
+                    "type": "entries",
+                    "name": "Expanded Spell List",
+                    "entires": [
+                        "Being Saanvi's Friend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                        {
+                            "type": "entires",
+                            "caption": "Sanvi's Friend Expanded Spells",
+                            "colLabels": [
+                                "Spell Level",
+                                "Spells"
+                            ],
+                            "colStyles": [
+                                "col-3 text-center",
+                                "col-9"
+                            ],
+                            "rows": [
+                                [
+                                    "1st",
+                                    "{@spell colour spray}, {@spell feather fall}"
+                                ],
+                                [
+                                    "2nd",
+                                    "{@spell alter self}, {@spell knock}"
+                                ],
+                                [
+                                    "3rd",
+                                    "{@spell tiny servant}, {@spell blink}"
+                                ],
+                                [
+                                    "4th",
+                                    "{@spell polymorph}, {@spell control water}"
+                                ],
+                                [
+                                    "5th",
+                                    "{@spell animate objects}, {@spell telekinesis}"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Whatever Magicks|Warlock||Saanvi's Friend|KC:SF|1"
+                }
+            ]
         }
     ]
 }
