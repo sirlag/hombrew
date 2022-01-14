@@ -18,7 +18,7 @@
     "subclass": [
         {
             "name": "Saanvi's Friend",
-            "shortName": "Saanvi's Friend",
+            "shortName": "Saanvi Friend",
             "source": "KC:SF",
             "subclassSpells": [
                 "Colour Spray",
@@ -33,11 +33,7 @@
                 "Telekinesis"
             ],
             "subclassFeatures": [
-                "Whatever Magicks|Warlock||Saanvi's Friend|KC:SF|1",
-                "GTFO|Warlock|Saanvi's Friend||KC:SF|6",
-                "Double Slappa|Warlock||Saanvi's Friend|KC:SF|6",
-                "Best Friends... Forever|Warlock||Saanvi's Friend|KC:SF|10",
-                "Snack for Saanvi|Warlock||Saanvi's Friend|KC:SF|14"
+                "Saanvi's Friend|Warlock||Saanvi Friend|KC:SF|1"
             ],
             "additionalSpells": [
                 {
@@ -71,23 +67,18 @@
     ],
     "subclassFeature": [
         {
-            "name": "Saanvi's Friend",
+            "name": "Expanded Spell List",
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Saanvi Friend",
             "subclassSource": "KC:SF",
             "level": 1,
             "entires": [
-                "Saanvi: The Shadow Walker: Commander of Night and Bringer of Swift Vengeance: Wielder of the Sevenfold Twilight Scythe: Leader of the Order of the Changing One: Descendant of the Mighty Zehir: Lord of Darkness is the god of chaos. Her area of magic is within the Illusion and Transmutation schools of magic. Her alignment is Chaotic Neutral. She concerns her self mostly with her personal whims and seeing chaos or gremlin energy happen.",
-                {
-                    "type": "entries",
-                    "name": "Expanded Spell List",
-                    "entires": [
-                        "Being Saanvi's Friend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                        "Being Saanvi Friend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
                         {
-                            "type": "entires",
-                            "caption": "Saanvi's Friend Expanded Spells",
+                            "type": "table",
+                            "caption": "Saanvi Friend Expanded Spells",
                             "colLabels": [
                                 "Spell Level",
                                 "Spells"
@@ -120,19 +111,13 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Whatever Magicks|Warlock||Saanvi's Friend|KC:SF|1"
-                }
-            ]
         },
         {
             "name": "Whatever Magicks",
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Saanvi Friend",
             "subclassSource": "KC:SF",
             "level": 1,
             "header": 1,
@@ -145,7 +130,7 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Saanvi Friend",
             "subclassSource": "KC:SF",
             "level": 6,
             "header": 2,
@@ -159,7 +144,7 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Saanvi Friend",
             "subclassSource": "KC:SF",
             "level": 6,
             "header": 2,
@@ -172,7 +157,7 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Saanvi Friend",
             "subclassSource": "KC:SF",
             "level": 10,
             "header": 2,
@@ -186,7 +171,7 @@
             "source": "KC:SF",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Saanvi's Friend",
+            "subclassShortName": "Saanvi Friend",
             "subclassSource": "KC:SF",
             "level": 14,
             "header": 2,
@@ -195,6 +180,26 @@
                 "When this feature ends, Saanvi spits them out and the banished creature returns to the space that it was previously occupying (or the nearest unoccupied space) and must make an additional Charisma saving throw, taking 5d10 force damage on a failed save, half on a success. Yum.",
                 "Once you use this feature to banish a creature you must finish a long rest before you can use it again."
             ]
-        }
+        },
+        {
+			"name": "Saanvi's Friend",
+			"source": "KC:SF",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Saanvi Friend",
+			"subclassSource": "KC:SF",
+			"level": 1,
+			"entries": [
+                "Saanvi: The Shadow Walker: Commander of Night and Bringer of Swift Vengeance: Wielder of the Sevenfold Twilight Scythe: Leader of the Order of the Changing One: Descendant of the Mighty Zehir: Lord of Darkness is the god of chaos. Her area of magic is within the Illusion and Transmutation schools of magic. Her alignment is Chaotic Neutral. She concerns her self mostly with her personal whims and seeing chaos or gremlin energy happen.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock||Saanvi Friend|KC:SF|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Whatever Magicks|Warlock||Saanvi Friend|KC:SF|1"
+				}
+			]
+		}
     ]
 }
