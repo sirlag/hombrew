@@ -1,0 +1,30 @@
+{
+    "subclass" : [
+        {
+            "name": "Saanvi's Friend",
+            "shortName": "Saanvi",
+            "source": "SaanviFriend",
+            "subclassSpells": [
+                "Colour Spray",
+                "Feather Fall",
+                "Alter Self",
+                "Knock",
+                "Tiny Servant",
+                "Blink",
+                "Polymorph",
+                "Control Water",
+                "Animate Objects",
+                "Telekinesis"
+            ],
+            "subclassFeatures": [
+                "Whatever Magicks|Warlock|Saanvi|SaanviFriend|1",
+                "GTFO|Warlock|Saanvi|SaanviFriend|6",
+                "Double Slappa|Warlock|Saanvi|SaanviFriend|6",
+                "Best Friends... Forever|Warlock|Saanvi|SaanviFriend|10",
+                "Snack for Saanvi|Warlock|Saanvi|SaanviFriend|14"
+            ],
+            "className" : "Warlock",
+            "classSource" : "PHB"
+        }
+    ]
+}
