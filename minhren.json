@@ -20,7 +20,7 @@
             "name": "Minhrenian",
             "source": "KC:MM",
             "type": "standard",
-            "entires": [
+            "entries": [
                 "It's basically the common language (other than common) people use in Minhren."
             ]
         },
@@ -28,7 +28,7 @@
             "name": "Rhen'Tsa",
             "source": "KC:MM",
             "type": "exotic",
-            "entires": [
+            "entries": [
                 "Said to be the language of gods and was the origin/root language of Minhrenian. It is a more artistic and interruptive language and isn't fully known as those who spoke it have long since been dead but there are many who study and practice it with the records that have survived."
             ]
         },
@@ -36,7 +36,7 @@
             "name": "Talin",
             "source": "KC:MM",
             "type": "standard",
-            "entires": [
+            "entries": [
                 "created from the people Murkwell, it was developed as a more efficient way of writing to get as much info on on a single piece of parchment (kind of imagine kaleidoscopes and mandalas for how they look)"
             ]
         }
