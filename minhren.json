@@ -59,7 +59,7 @@
                 "Telekinesis"
             ],
             "subclassFeatures": [
-                "Saanvi's Friend|Warlock||Wild Rumpus|KC:MM|1",
+                "The Wild Rumpus|Warlock||Wild Rumpus|KC:MM|1",
                 "Play Rough|Warlock||Wild Rumpus|KC:MM|6",
                 "Best Friends... Forever|Warlock||Wild Rumpus|KC:MM|10",
                 "Snack for Saanvi|Warlock||Wild Rumpus|KC:MM|14"
@@ -301,7 +301,7 @@
             ]
         },
         {
-            "name": "Saanvi's Friend",
+            "name": "The Wild Rumpus",
             "source": "KC:MM",
             "className": "Warlock",
             "classSource": "PHB",
@@ -309,7 +309,6 @@
             "subclassSource": "KC:MM",
             "level": 1,
             "entries": [
-                "Saanvi: The Shadow Walker: Commander of Night and Bringer of Swift Vengeance: Wielder of the Sevenfold Twilight Scythe: Leader of the Order of the Changing One: Descendant of the Mighty Zehir: Lord of Darkness is the god of chaos. Her area of magic is within the Illusion and Transmutation schools of magic. Her alignment is Chaotic Neutral. She concerns her self mostly with her personal whims and seeing chaos or gremlin energy happen.",
                 {
                     "type": "refSubclassFeature",
                     "subclassFeature": "Expanded Spell List|Warlock||Wild Rumpus|KC:MM|1"
