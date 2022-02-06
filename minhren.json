@@ -5,7 +5,7 @@
                 "json": "KC:MM",
                 "abbreviation": "KC:MM",
                 "full": "Kimchi's Marvelous Minhren",
-                "version": "0.1",
+                "version": "0.2",
                 "authors": [
                     "Kimchi98"
                 ],
@@ -40,5 +40,360 @@
                 "created from the people Murkwell, it was developed as a more efficient way of writing to get as much info on on a single piece of parchment (kind of imagine kaleidoscopes and mandalas for how they look)"
             ]
         }
+    ],
+    "subclass": [
+        {
+            "name": "The Wild Rumpus",
+            "shortName": "Wild Rumpus",
+            "source": "KC:MM",
+            "subclassSpells": [
+                "Color spray",
+                "Feather Fall",
+                "Alter Self",
+                "Knock",
+                "Tiny Servant|XGE",
+                "Blink",
+                "Polymorph",
+                "Control Water",
+                "Animate Objects",
+                "Telekinesis"
+            ],
+            "subclassFeatures": [
+                "Saanvi's Friend|Warlock||Wild Rumpus|KC:MM|1",
+                "Play Rough|Warlock||Wild Rumpus|KC:MM|6",
+                "Best Friends... Forever|Warlock||Wild Rumpus|KC:MM|10",
+                "Snack for Saanvi|Warlock||Wild Rumpus|KC:MM|14"
+            ],
+            "additionalSpells": [
+                {
+                    "expanded": {
+                        "s1": [
+                            "color spray",
+                            "feather fall"
+                        ],
+                        "s2": [
+                            "alter self",
+                            "knock"
+                        ],
+                        "s3": [
+                            "tiny servant|XGE",
+                            "blink"
+                        ],
+                        "s4": [
+                            "polymorph",
+                            "control water"
+                        ],
+                        "s5": [
+                            "animate objects",
+                            "telekinesis"
+                        ]
+                    }
+                }
+            ],
+            "className": "Warlock",
+            "classSource": "PHB"
+        },
+        {
+            "name": "The Retribution",
+            "shortName": "Retribution",
+            "source": "KC:MM",
+            "subclassSpells": [
+                "Detect Evil and Good",
+                "Wrathful Smite",
+                "Warding Bond",
+                "Zone of Truth",
+                "Aura of Vitality",
+                "Revivify",
+                "Aura of Purity",
+                "Staggering Smite",
+                "Dispel Evil and Good",
+                "Telekinesis"
+            ],
+            "subclassFeatures": [
+                "The Retribution|Warlock||Retribution|KC:MM|1",
+                "Gift of Life|Warlock||Retribution|KC:MM|6",
+                "Imprisoned Sanctuary|Warlock||Retribution|KC:MM|10",
+                "Fettered Gift|Warlock||Retribution|KC:MM|14"
+            ],
+            "additionalSpells": [
+                {
+                    "expanded": {
+                        "s1": [
+                            "detect evil and good",
+                            "wrathful smite"
+                        ],
+                        "s2": [
+                            "warding bond",
+                            "zone of truth"
+                        ],
+                        "s3": [
+                            "aura of vitality",
+                            "revivify"
+                        ],
+                        "s4": [
+                            "aura of purity",
+                            "staggering smite"
+                        ],
+                        "s5": [
+                            "dispel evil and good",
+                            "telekinesis"
+                        ]
+                    }
+                }
+            ],
+            "className": "Warlock",
+            "classSource": "PHB"
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Expanded Spell List",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Wild Rumpus",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                        "The Wild Rumpus lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                        {
+                            "type": "table",
+                            "caption": "Wild Rumpus Expanded Spells",
+                            "colLabels": [
+                                "Spell Level",
+                                "Spells"
+                            ],
+                            "colStyles": [
+                                "col-3 text-center",
+                                "col-9"
+                            ],
+                            "rows": [
+                                [
+                                    "1st",
+                                    "{@spell color spray}, {@spell feather fall}"
+                                ],
+                                [
+                                    "2nd",
+                                    "{@spell alter self}, {@spell knock}"
+                                ],
+                                [
+                                    "3rd",
+                                    "{@spell tiny servant|XGE}, {@spell blink}"
+                                ],
+                                [
+                                    "4th",
+                                    "{@spell polymorph}, {@spell control water}"
+                                ],
+                                [
+                                    "5th",
+                                    "{@spell animate objects}, {@spell telekinesis}"
+                                ]
+                            ]
+                        }
+                    ]
+        },
+        {
+            "name": "Whatever Magicks",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Wild Rumpus",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Saanvi has better things to do than to baby her followers and teach them the mystical ways of the darkened path. Instead, she likes to expedite learning with the magick learning bonk stick. Bonk Whatever, magick! Beginning at 1st level, when you cast a warlock spell of 1st-level or higher, you can replace its damage type with a damage type from another warlock spell you know, altering the spell for this casting only."
+            ]
+        },
+        {
+            "name": "Play Rough",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Wild Rumpus",
+            "subclassSource": "KC:MM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Sometimes shit hits the fan and you gotta go; Saanvi has bestowed upon you the gift to, in her words, \"slither away like smol sad baby snek\". Beginning at 6th level, when you are hit by an attack, you can use your reaction to instantly teleport through the Astral Plane, causing the triggering attack to miss. You then immediately reappear in an unoccupied space of your choice within 30 feet of where you disappeared.",
+                "Once you use this reaction to evade an attack, you must finish a short or long rest before you can use it again.",
+                "Additionally, it is fun to hit things more than once; Saanvi inspires you with gremlin fervor to be either brave or foolish enough to swing twice. When you take the Attack action on your turn, you can attack twice instead of once."
+            ]
+        },
+        {
+            "name": "Best Friends... Forever",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Wild Rumpus",
+            "subclassSource": "KC:MM",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "Saanvi really likes having you around as a playmate. Old people are too fragile and so are corpses so Saanvi gives you the gift of friendship forever, or at least: a very long time for you silly mortals. Starting at 10th level, you no longer require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from both short and long rests.",
+                "In addition, for every 10 years that pass, your body ages only 1 year, and you are immune to being aged by magic."
+            ]
+        },
+        {
+            "name": "Snack for Saanvi",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Wild Rumpus",
+            "subclassSource": "KC:MM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Being a god is hard work; maybe as a thanks you should send Saanvi a delicious treat. Starting at 14th level, when you hit a creature with an attack, you can force them to make a Charisma saving throw in place of dealing damage. On a failed save, Saanvi's astrally projected couatl form swallows the creature whole and chews on them for up to 1 minute, or until you lose concentration on this ability.",
+                "When this feature ends, Saanvi spits them out and the banished creature returns to the space that it was previously occupying (or the nearest unoccupied space) and must make an additional Charisma saving throw, taking 5d10 force damage on a failed save, half on a success. Yum.",
+                "Once you use this feature to banish a creature you must finish a long rest before you can use it again."
+            ]
+        },
+        {
+			"name": "Saanvi's Friend",
+			"source": "KC:MM",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Rumpus",
+			"subclassSource": "KC:MM",
+			"level": 1,
+			"entries": [
+                "Saanvi: The Shadow Walker: Commander of Night and Bringer of Swift Vengeance: Wielder of the Sevenfold Twilight Scythe: Leader of the Order of the Changing One: Descendant of the Mighty Zehir: Lord of Darkness is the god of chaos. Her area of magic is within the Illusion and Transmutation schools of magic. Her alignment is Chaotic Neutral. She concerns her self mostly with her personal whims and seeing chaos or gremlin energy happen.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock||Wild Rumpus|KC:MM|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Whatever Magicks|Warlock||Wild Rumpus|KC:MM|1"
+				}
+			]
+		},
+
+        {
+            "name": "Expanded Spell List",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Retribution",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                        "The Retribution lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                        {
+                            "type": "table",
+                            "caption": "Retribution Expanded Spells",
+                            "colLabels": [
+                                "Spell Level",
+                                "Spells"
+                            ],
+                            "colStyles": [
+                                "col-3 text-center",
+                                "col-9"
+                            ],
+                            "rows": [
+                                [
+                                    "1st",
+                                    "{@spell detect evil and good}, {@spell wrathful smite}"
+                                ],
+                                [
+                                    "2nd",
+                                    "{@spell warding bond}, {@spell zone of truth}"
+                                ],
+                                [
+                                    "3rd",
+                                    "{@spell aura of vitality}, {@spell revivify}"
+                                ],
+                                [
+                                    "4th",
+                                    "{@spell aura of purity}, {@spell staggering smite"
+                                ],
+                                [
+                                    "5th",
+                                    "{@spell dispel evil and good}, {@spell telekinesis}"
+                                ]
+                            ]
+                        }
+                    ]
+        },
+        {
+            "name": "Hero's Fetters",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Retribution",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "I shall grant the power you seek, but with someone as powerful as you: you must be shackled and contained lest you bring unbalance to yourself and the world. But you shall find comfort in your gilded cage, my dear.",
+                "At 1st level, you feel your body change and your essence condense into a Tiny object becoming your new soul vessel and spellcasting focus for you. Because it is now forever shackled to your soul: if you die, the vessel becomes a dull and plain object. ","Additionally, it is fun to hit things more than once; Saanvi inspires you with gremlin fervor to be either brave or foolish enough to swing twice. When you take the Attack action on your turn, you can attack twice instead of once.",
+                "As an action, you can enter or exit your vessel which has a 20ft radius and is 20ft high. The interior is a pleasant temperature and is adorned with a large, low table and simple yet soft pillows and cushion to sit on. Any objects left in the vessel remain there until carried out or, if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to where the vessel formally was. You can remain inside the vessel up to the number of hours equal to twice your proficiency bonus. You cannot do this again until you finish a long rest.",
+                "If the vessel is destroyed, you receive 1d8 psychic damage. You can perform a 1-hour ceremony to receive a replacement from your patron during a short or long rest."
+            ]
+        },
+        {
+            "name": "Gift of Life",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Retribution",
+            "subclassSource": "KC:MM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Your life is forfeit, but that does not mean others are: use your gifts to give life to others and to heal what will be broken in you forever.",
+                "Beginning at 6th level, you gain resistance to necrotic damage. You gain the ability Lay on Hands.",
+            ]
+        },
+        {
+            "name": "Imprisoned Sanctuary",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Retribution",
+            "subclassSource": "KC:MM",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "I shall grant you a short reprieve from your suffering, but it must end one way or another.",
+                "Beginning at 10th level, when you enter your vessel, you can now choose up to five willing creatures that you can see within 30 feet of you to be drawn into the vessel with you.",
+                "The creatures can stay in your vessel until you leave or the vessel is destroyed. If they stay within the vessel for at least 10 minutes, they gain the benefit of finishing a short rest."
+            ]
+        },
+        {
+            "name": "Fettered Gift",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Retribution",
+            "subclassSource": "KC:MM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "I am here, is that what you wished for me? Make it quick, make it concise. And do not resent me for giving you exactly what you wanted.",
+                "Beginning at 14th level, you can call out to your patron to grant you a small wish. As an action, you can speak your desire to your vessel and do one of the following: You can request the effect of one spell that is 6th level or lower and have the casting time of 1 action. Or you can ask your god three questions that they will answer to their best ability. However, know that this does not come without its consequences.",
+                "Once you use this feature, you can't use it again until you finish 1d4 long rest."
+            ]
+        },
+        {
+			"name": "The Retribution",
+			"source": "KC:MM",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Retribution",
+			"subclassSource": "KC:MM",
+			"level": 1,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock||Retribution|KC:MM|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hero's Fetters|Warlock||Retribution|KC:MM|1"
+				}
+			]
+		}
     ]
 }
