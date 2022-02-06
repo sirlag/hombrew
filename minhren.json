@@ -143,6 +143,57 @@
             ],
             "className": "Warlock",
             "classSource": "PHB"
+        },
+        {
+            "name": "The Abomination",
+            "shortName": "Abomination",
+            "source": "KC:MM",
+            "subclassSpells": [
+                "False Life",
+                "Ray of Sickness",
+                "Blur",
+                "Silence",
+                "Feign Death",
+                "Ashardalon's Stride|FTD",
+                "Phantasmal Killer",
+                "Sickening Radiance|XGE",
+                "Contagion",
+                "Cloudkill"
+            ],
+            "subclassFeatures": [
+                "The Abomination|Warlock||Abomination|KC:MM|1",
+                "Horrid Wings|Warlock||Abomination|KC:MM|6",
+                "Beast of Shadows|Warlock||Abomination|KC:MM|10",
+                "Agonized Abomination|Warlock||Abomination|KC:MM|14"
+            ],
+            "additionalSpells": [
+                {
+                    "expanded": {
+                        "s1": [
+                            "false life",
+                            "ray of sickness"
+                        ],
+                        "s2": [
+                            "blur",
+                            "silence"
+                        ],
+                        "s3": [
+                            "feign death",
+                            "ashardalon's stride|FTD"
+                        ],
+                        "s4": [
+                            "phantasmal killer",
+                            "sickening radiance|XGE"
+                        ],
+                        "s5": [
+                            "contagion",
+                            "cloudkill"
+                        ]
+                    }
+                }
+            ],
+            "className": "Warlock",
+            "classSource": "PHB"
         }
     ],
     "subclassFeature": [
@@ -305,7 +356,7 @@
                         ],
                         [
                             "4th",
-                            "{@spell aura of purity}, {@spell staggering smite"
+                            "{@spell aura of purity}, {@spell staggering smite}"
                         ],
                         [
                             "5th",
@@ -392,6 +443,132 @@
                 {
                     "type": "refSubclassFeature",
                     "subclassFeature": "Hero's Fetters|Warlock||Retribution|KC:MM|1"
+                }
+            ]
+        },
+        {
+            "name": "Expanded Spell List",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Abomination",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                "The Abomination lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                {
+                    "type": "table",
+                    "caption": "Abomination Expanded Spells",
+                    "colLabels": [
+                        "Spell Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "{@spell false life}, {@spell ray of sickness}"
+                        ],
+                        [
+                            "2nd",
+                            "{@spell blur}, {@spell silence}"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell feign death}, {@spell ashardalon's stride|FTD}"
+                        ],
+                        [
+                            "4th",
+                            "{@spell phantasmal killer}, {@spell sickening radiance|XGE}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell contagion}, {@spell cloudkill}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mark of the Beast",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Abomination",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "You have heard whispers of an entity that will help you transform into what you need to become in order to gain the power you so desperately need, but no one perhaps lived to tell you what it would cost. You can feel your body change and your essence ripped apart. You are now forever marked and others know that.",
+                "At 1st level, you may shed some of your humanity and transform into a Monstrous Form for 1 minute as a bonus action. You can transform a number of times equal to your proficiency bonus. You also have immunity to the Frightened condition.",
+                "Whenever a creature makes a direct attack to you in this form, it must make a Wisdom saving throw against your spell save DC. On a fail, the creature must choose a new target. On a success, that creature is immune to this effect for 24 hours."
+            ]
+        },
+        {
+            "name": "Horrid Wings",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Abomination",
+            "subclassSource": "KC:MM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "I shall free you of your shackles and grant you the power to touch the stars themselves.",
+                "Beginning at 6th level, as a bonus action, you feel your bones crack and transform and you sprout bat-like wings from your back: giving yourself a flying speed of 30 feet that lasts for 10 minutes during which you can hover. You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+                "In addition, once during each of your  turns, when you hit a creatures an attack and roll damage against the creature, you can replace that damage type with necrotic damage. In your Monstrous Form, you can roll one additional damage die of necrotic damage."
+            ]
+        },
+        {
+            "name": "Beast of Shadows",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Abomination",
+            "subclassSource": "KC:MM",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "What have you become? Even the shadows shirk in fear of you or rather: what is left of you.",
+                "Beginning at 10th level, dark powers from your patron now saturates your body. You find that you no longer need to eat, drink, or breathe yet there is a hunger that persists.",
+                "You are resistant to Radiant damage and immune to it when you are in your Monstrous Form.",
+                "In addition, when you are reduced to 0 hit points, you may use your reaction to drop to 1 hit point instead. Your body bubbles and erupts with vengeful fury. Each creature within 30 ft of you must make a Dexterity saving throw and receive 2d10 + your warlock level of necrotic damage on a fail or half of that on a success. Once you use this reaction, you cannot do so again until you finish 1d4 long rests."
+            ]
+        },
+        {
+            "name": "Agonized Abomination",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Abomination",
+            "subclassSource": "KC:MM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Vengeance is a sickening disease isn't it? What a wretched soul you are, but you're still a beautiful abomination.",
+                "Beginning at 14th level, you gain resistance to bludgeoning, piercing, and slashing damage in your Monstrous Form.",
+                "Additionally, you can use a bonus action to regain hit points equal to 1d8 + your warlock level. Additionally, if you put a severed body part of yours back in place and use this feature; you see that your flesh stitches itself together. Once you use this feature, you cannot use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "The Abomination",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Abomination",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Warlock||Abomination|KC:MM|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Mark of the Beast|Warlock||Abomination|KC:MM|1"
                 }
             ]
         }
