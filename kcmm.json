@@ -5,7 +5,7 @@
                 "json": "KC:MM",
                 "abbreviation": "KC:MM",
                 "full": "Kimchi's Marvelous Minhren",
-                "version": "0.2",
+                "version": "0.3",
                 "authors": [
                     "Kimchi98"
                 ],
@@ -188,6 +188,57 @@
                         "s5": [
                             "contagion",
                             "cloudkill"
+                        ]
+                    }
+                }
+            ],
+            "className": "Warlock",
+            "classSource": "PHB"
+        },
+        {
+            "name": "The Madness",
+            "shortName": "Madness",
+            "source": "KC:MM",
+            "subclassSpells": [
+                "False Life",
+                "Disguise Self",
+                "Blindness/Deafness",
+                "Wither and Bloom|SCC",
+                "Bestow Curse",
+                "Animate Dead",
+                "Phantasmal Killer",
+                "Evard's Black Tentacles",
+                "Immolation|XGE",
+                "Temporal Shunt|EGW"
+            ],
+            "subclassFeatures": [
+                "The Madness|Warlock||Madness|KC:MM|1",
+                "True Form|Warlock||Madness|KC:MM|6",
+                "Maddening Enlightenment|Warlock||Madness|KC:MM|10",
+                "Deranged Disciple|Warlock||Madness|KC:MM|14"
+            ],
+            "additionalSpells": [
+                {
+                    "expanded": {
+                        "s1": [
+                            "false life",
+                            "disguise self"
+                        ],
+                        "s2": [
+                            "blindness/deafness",
+                            "wither and bloom|SCC"
+                        ],
+                        "s3": [
+                            "bestow curse",
+                            "animate dead"
+                        ],
+                        "s4": [
+                            "phantasmal killer",
+                            "evard's black tentacles"
+                        ],
+                        "s5": [
+                            "immolation|XGE",
+                            "temporal shunt|EGW"
                         ]
                     }
                 }
@@ -568,6 +619,129 @@
                 {
                     "type": "refSubclassFeature",
                     "subclassFeature": "Mark of the Beast|Warlock||Abomination|KC:MM|1"
+                }
+            ]
+        },
+        {
+            "name": "Expanded Spell List",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Madness",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                "The Madness lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                {
+                    "type": "table",
+                    "caption": "Madness Expanded Spells",
+                    "colLabels": [
+                        "Spell Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "{@spell false life}, {@spell disguise self}"
+                        ],
+                        [
+                            "2nd",
+                            "{@spell blindness/deafness}, {@spell wither and bloom|SCC}"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell bestow curse}, {@spell anime dead}"
+                        ],
+                        [
+                            "4th",
+                            "{@spell phantasmal killer}, {@spell evard's black tentacles}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell immolation|XGE}, {@spell temporal shunt|EGW}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Awoken Eye",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Madness",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Those brave or foolish enough to offer their service are first rewarded with a painful transformation of an eye protruding from a lesion that suddenly bursts open on the body; usually the palm, shoulder, or thigh. Many do not survive this first trial.",
+                "Beginning at 1st level, you gain darkvision with a range of 30 feet. You also gain a bonus that is equal to your Wisdom modifier to your Passive Perception (Wisdom) score and to your Perception Checks (Wisdom).",
+                "In addition, you can also do 1d6 damage to yourself and have the eye shut and crawl across your flesh. Doing so lets you cast Cause Fear for free once per long rest."
+            ]
+        },
+        {
+            "name": "True Form",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Madness",
+            "subclassSource": "KC:MM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "So, you survived the first experiment...How interesting. Well, now to unlock your true potential by casting aside the flesh that binds you to weakness. Here is your blade, show me your fidelity to the Truth and to me.",
+                "Beginning at 6th level, you have discarded what they deem unnecessary and your patron's dark magick has wormed and festered in your body and soul. You don't need to eat, drink, or breathe.",
+                "In addition, when you hit a creature with an attack and roll damage, you may replace the damage type with necrotic damage."
+            ]
+        },
+        {
+            "name": "Maddening Enlightenment",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Madness",
+            "subclassSource": "KC:MM",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "Now you will truly see my divine plan...isn't it wonderful? Isn't it horrifying. Do not turn away from it! Embrace it!",
+                "Beginning at 10th level, you gain advantage on death saving throws, immunity to being frightened, and resistance to necrotic damage."
+            ]
+        },
+        {
+            "name": "Deranged Disciple",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Madness",
+            "subclassSource": "KC:MM",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "You are now complete. Now go and share the Truth to the rest of the blinded fools who avert their gaze from my glory. You have finally received the approval of your dark patron and grant you a sliver of their madness and power.",
+                "Beginning at 14th level, you can cast Finger of Death once per long rest."
+            ]
+        },
+        {
+            "name": "The Madness",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Madness",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Warlock||Madness|KC:MM|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Awoken Eye|Warlock||Madness|KC:MM|1"
                 }
             ]
         }
