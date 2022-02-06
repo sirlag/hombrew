@@ -155,42 +155,42 @@
             "subclassSource": "KC:MM",
             "level": 1,
             "entries": [
-                        "The Wild Rumpus lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-                        {
-                            "type": "table",
-                            "caption": "Wild Rumpus Expanded Spells",
-                            "colLabels": [
-                                "Spell Level",
-                                "Spells"
-                            ],
-                            "colStyles": [
-                                "col-3 text-center",
-                                "col-9"
-                            ],
-                            "rows": [
-                                [
-                                    "1st",
-                                    "{@spell color spray}, {@spell feather fall}"
-                                ],
-                                [
-                                    "2nd",
-                                    "{@spell alter self}, {@spell knock}"
-                                ],
-                                [
-                                    "3rd",
-                                    "{@spell tiny servant|XGE}, {@spell blink}"
-                                ],
-                                [
-                                    "4th",
-                                    "{@spell polymorph}, {@spell control water}"
-                                ],
-                                [
-                                    "5th",
-                                    "{@spell animate objects}, {@spell telekinesis}"
-                                ]
-                            ]
-                        }
+                "The Wild Rumpus lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                {
+                    "type": "table",
+                    "caption": "Wild Rumpus Expanded Spells",
+                    "colLabels": [
+                        "Spell Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "{@spell color spray}, {@spell feather fall}"
+                        ],
+                        [
+                            "2nd",
+                            "{@spell alter self}, {@spell knock}"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell tiny servant|XGE}, {@spell blink}"
+                        ],
+                        [
+                            "4th",
+                            "{@spell polymorph}, {@spell control water}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell animate objects}, {@spell telekinesis}"
+                        ]
                     ]
+                }
+            ]
         },
         {
             "name": "Whatever Magicks",
@@ -250,26 +250,25 @@
             ]
         },
         {
-			"name": "Saanvi's Friend",
-			"source": "KC:MM",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Wild Rumpus",
-			"subclassSource": "KC:MM",
-			"level": 1,
-			"entries": [
+            "name": "Saanvi's Friend",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Wild Rumpus",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
                 "Saanvi: The Shadow Walker: Commander of Night and Bringer of Swift Vengeance: Wielder of the Sevenfold Twilight Scythe: Leader of the Order of the Changing One: Descendant of the Mighty Zehir: Lord of Darkness is the god of chaos. Her area of magic is within the Illusion and Transmutation schools of magic. Her alignment is Chaotic Neutral. She concerns her self mostly with her personal whims and seeing chaos or gremlin energy happen.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Expanded Spell List|Warlock||Wild Rumpus|KC:MM|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Whatever Magicks|Warlock||Wild Rumpus|KC:MM|1"
-				}
-			]
-		},
-
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Warlock||Wild Rumpus|KC:MM|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Whatever Magicks|Warlock||Wild Rumpus|KC:MM|1"
+                }
+            ]
+        },
         {
             "name": "Expanded Spell List",
             "source": "KC:MM",
@@ -279,42 +278,42 @@
             "subclassSource": "KC:MM",
             "level": 1,
             "entries": [
-                        "The Retribution lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-                        {
-                            "type": "table",
-                            "caption": "Retribution Expanded Spells",
-                            "colLabels": [
-                                "Spell Level",
-                                "Spells"
-                            ],
-                            "colStyles": [
-                                "col-3 text-center",
-                                "col-9"
-                            ],
-                            "rows": [
-                                [
-                                    "1st",
-                                    "{@spell detect evil and good}, {@spell wrathful smite}"
-                                ],
-                                [
-                                    "2nd",
-                                    "{@spell warding bond}, {@spell zone of truth}"
-                                ],
-                                [
-                                    "3rd",
-                                    "{@spell aura of vitality}, {@spell revivify}"
-                                ],
-                                [
-                                    "4th",
-                                    "{@spell aura of purity}, {@spell staggering smite"
-                                ],
-                                [
-                                    "5th",
-                                    "{@spell dispel evil and good}, {@spell telekinesis}"
-                                ]
-                            ]
-                        }
+                "The Retribution lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                {
+                    "type": "table",
+                    "caption": "Retribution Expanded Spells",
+                    "colLabels": [
+                        "Spell Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "{@spell detect evil and good}, {@spell wrathful smite}"
+                        ],
+                        [
+                            "2nd",
+                            "{@spell warding bond}, {@spell zone of truth}"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell aura of vitality}, {@spell revivify}"
+                        ],
+                        [
+                            "4th",
+                            "{@spell aura of purity}, {@spell staggering smite"
+                        ],
+                        [
+                            "5th",
+                            "{@spell dispel evil and good}, {@spell telekinesis}"
+                        ]
                     ]
+                }
+            ]
         },
         {
             "name": "Hero's Fetters",
@@ -327,7 +326,8 @@
             "header": 1,
             "entries": [
                 "I shall grant the power you seek, but with someone as powerful as you: you must be shackled and contained lest you bring unbalance to yourself and the world. But you shall find comfort in your gilded cage, my dear.",
-                "At 1st level, you feel your body change and your essence condense into a Tiny object becoming your new soul vessel and spellcasting focus for you. Because it is now forever shackled to your soul: if you die, the vessel becomes a dull and plain object. ","Additionally, it is fun to hit things more than once; Saanvi inspires you with gremlin fervor to be either brave or foolish enough to swing twice. When you take the Attack action on your turn, you can attack twice instead of once.",
+                "At 1st level, you feel your body change and your essence condense into a Tiny object becoming your new soul vessel and spellcasting focus for you. Because it is now forever shackled to your soul: if you die, the vessel becomes a dull and plain object. ",
+                "Additionally, it is fun to hit things more than once; Saanvi inspires you with gremlin fervor to be either brave or foolish enough to swing twice. When you take the Attack action on your turn, you can attack twice instead of once.",
                 "As an action, you can enter or exit your vessel which has a 20ft radius and is 20ft high. The interior is a pleasant temperature and is adorned with a large, low table and simple yet soft pillows and cushion to sit on. Any objects left in the vessel remain there until carried out or, if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to where the vessel formally was. You can remain inside the vessel up to the number of hours equal to twice your proficiency bonus. You cannot do this again until you finish a long rest.",
                 "If the vessel is destroyed, you receive 1d8 psychic damage. You can perform a 1-hour ceremony to receive a replacement from your patron during a short or long rest."
             ]
@@ -343,7 +343,7 @@
             "header": 2,
             "entries": [
                 "Your life is forfeit, but that does not mean others are: use your gifts to give life to others and to heal what will be broken in you forever.",
-                "Beginning at 6th level, you gain resistance to necrotic damage. You gain the ability Lay on Hands.",
+                "Beginning at 6th level, you gain resistance to necrotic damage. You gain the ability Lay on Hands."
             ]
         },
         {
@@ -377,23 +377,23 @@
             ]
         },
         {
-			"name": "The Retribution",
-			"source": "KC:MM",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Retribution",
-			"subclassSource": "KC:MM",
-			"level": 1,
-			"entries": [
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Expanded Spell List|Warlock||Retribution|KC:MM|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Hero's Fetters|Warlock||Retribution|KC:MM|1"
-				}
-			]
-		}
+            "name": "The Retribution",
+            "source": "KC:MM",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Retribution",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Warlock||Retribution|KC:MM|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Hero's Fetters|Warlock||Retribution|KC:MM|1"
+                }
+            ]
+        }
     ]
 }
