@@ -1,0 +1,104 @@
+{
+    "_meta" : {
+        "sources" : [
+            {
+                "full" : "Unearthed Arcana: Yannick",
+                "json" : "Yannick",
+                "abbreviation" : "UA:V",
+                "authors" : [
+                    "Kimchi98",
+                    "Fredo"
+                ],
+                "convertedBy": [
+                    "SirLag"
+                ]
+            }
+        ]
+    },
+    "subclass" : [
+        {
+            "name" : "Inkblot",
+            "source":  "Yannick",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "shortName": "Inkblot",
+            "subclassFeatures" : [
+                "Inkblot|Wizard|PHB|Inkblot|Yannick|2"
+            ]
+
+        }
+    ],
+    "subclassFeature" : [
+        {
+            "name" : "Inkblot",
+            "source": "Yannick",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Inkblot",
+            "subclassSource": "Yannick",
+            "level": 2,
+            "entries": [
+                "Arcane practitioners spend their time honing an ability to bring their will unto the world. Invoking the energies around them to produce substantive effects on the world. Many approach this task and there are near as many techniques as there are individuals with the power.",
+                "Inkblot wizards have learned to pour an \"inkarnation\" of themselves into an agent to carry out their will on the wizards' behalf. The practiced Inkblot is never truly whole, but masters of the craft are never truly alone, learning to make the combination of them and their agents abilities a greater force than the sum of the parts.",
+                {
+                    "name": "Replenishing Ink",
+                    "entries": [
+                        "Pick either transmutation or conjuration. Beginning at 2nd level, the gold and time you must spend to copy a spell of the chosen school into your spellbook is halved."
+                    ]
+                },
+                {
+                    "name": "Ink Aspect",
+                    "entries": [
+                        "Ink comingles with the water and blood of your flesh. At the end of a long rest you can perform a ritual to extract your essence into a creature, an Ink Aspect, if you have an arcane focus with you. If you already have an aspect from this feature the first one perishes. It obeys your commands. Choose one of three forms: Blot, Nib, or Gall. See statistics for each in the corresponding stat blocks.",
+                        "The Ink Aspect can prepare certain spells and cast them using your spell slots of 4th level or lower. To do so you must pick a number of your spells up to your Intelligence modifier (minimum 1) that the Ink Aspect prepares. You can pick spells as part of summoning the Ink Aspect after a long rest. The spells must have a casting time of 1 action. The spells you pick for the Ink Aspect count against your total prepared spells. You cannot cast spells that the Ink Aspect has prepared, and it can only cast its prepared spells when you use your bonus action to direct it to. You can cast the same spells through other features, such as feats, provided they do not use spell slots you gained from class features. When you finish a long rest the Ink Aspect loses any spells it had prepared, at which point you can pick new spells for it to prepare.",
+                        "In combat, the aspect shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. If you are incapacitated, the defender can take any action of its choice, not just Dodge.",
+                        "If the Ink Aspect has died within the last hour, you can use your arcane focus as a bonus action to revive it, provided you expend a spell slot of 1st level or higher. The Ink Aspect returns to life with all of its hitpoints restored, and all of the same prepared spells. When you revive the Ink Aspect this way, you must roll one of your wizard hit dice. Your maximum HP is reduced by the amount shown on the die plus your Constitution modifier. While the Ink Aspect is dead you cannot use any spells it had prepared."
+                    ]
+                }
+            ]
+        }
+    ],
+    "background": [
+        {
+            "name": "Botched Experiment",
+            "source": "Yannick",
+            "skillProficiencies": [
+                {
+                    "arcana": true,
+                    "survival": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Arcana}, {@skill Survival}" 
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@item Disguise Kit}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "Talin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Overview",
+                    "type": "entries",
+                    "entries" : [
+                        "\"Oh how disappointing that you were as weak and unworthy as the rest of them; truly I thought you stood a chance.\"",
+                        "You were discarded and thrown out of darkest parts of Murkwell to rot in failure. And yet, something that perhaps was asleep deep within you has awoken. Whether or not it will make you whole or consume the tattered remains of your being is still undecided. "
+                    ]
+                }
+            ]
+        }
+    ]
+}
