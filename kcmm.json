@@ -1,11 +1,12 @@
 {
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
     "_meta": {
         "sources": [
             {
                 "json": "KC:MM",
                 "abbreviation": "KC:MM",
                 "full": "Kimchi's Marvelous Minhren",
-                "version": "0.4",
+                "version": "0.5",
                 "authors": [
                     "Kimchi98"
                 ],
@@ -244,6 +245,58 @@
                 }
             ],
             "className": "Warlock",
+            "classSource": "PHB"
+        },
+        {
+            "name": "Hedonistic Domain",
+            "shortName": "Hedonistic",
+            "source": "KC:MM",
+            "subclassSpells": [
+                "Dissonant Whispers",
+                "Thunderwave",
+                "Gift of Gab|AI",
+                "Enthrall",
+                "Catnap|XGE",
+                "Thunder Step|XGE",
+                "Compulsion",
+                "Confusion",
+                "Dream",
+                "Modify Memory"
+            ],
+            "subclassFeatures": [
+                "Hedonistic Domain|Cleric||Hedonistic|KC:MM|1",
+                "Channel Divinity: Way to Passion|Cleric||Hedonistic|KC:MM|2",
+                "Way to Rapture|Cleric||Hedonistic|KC:MM|6",
+                "Potent Spellcasting|Cleric||Hedonistic|KC:MM|8",
+                "Way to Paradise|Cleric||Hedonistic|KC:MM|17"
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "s1": [
+                            "dissonant whispers",
+                            "thunderwave"
+                        ],
+                        "s2": [
+                            "gift of gab|AI",
+                            "enthrall"
+                        ],
+                        "s3": [
+                            "catnap|xge",
+                            "thunder step|xge"
+                        ],
+                        "s4": [
+                            "compulsion",
+                            "confusion"
+                        ],
+                        "s5": [
+                            "dream",
+                            "modify memory"
+                        ]
+                    }
+                }
+            ],
+            "className": "Cleric",
             "classSource": "PHB"
         }
     ],
@@ -742,6 +795,167 @@
                     "type": "refSubclassFeature",
                     "subclassFeature": "Awoken Eye|Warlock||Madness|KC:MM|1"
                 }
+            ]
+        },
+        {
+            "name": "Hedonistic Domain",
+            "source": "KC:MM",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonistic",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                "Why live dully when you can live deliciously? Pleasure can bring insight and wisdom to ourselves and others. For our true nature is that of desire, lust, and passion. There are many who follow in the footsteps of Zephyr one way or another. But very few dedicate their life entirely to the hedonistic lifestyle and even fewer who impress Zephyr that he brings them under his rapturous light. Those touches by him find that their senses for pain and pleasure are heightened because one cannot live without the other. Clerics of the Hedonistic Domaine are usually entertainers but ultimately those who seek pleasure in all forms. They are usually within the Chaotic Neutral alignment as seeking their whims presides any other worldly and earthly concerns.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Domain Spells|Cleric||Hedonistic|KC:MM|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonus Proficiencies|Cleric||Hedonistic|KC:MM|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Way to Euphoria|Cleric||Hedonistic|KC:MM|1"
+                }
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "KC:MM",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonistic",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level Hedonistic Domain feature}",
+                "You gain proficiency with Heavy Armor and musical instruments"
+            ]
+        },
+        {
+            "name": "Way to Euphoria",
+            "source": "KC:MM",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonistic",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level Hedonistic Domain feature}",
+                "Starting at 1st level, you create a frenzy of euphoria that emboldens and inspires your allies for 10 minutes or until you use it again. As an action, you choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. While within 30 feet of you, they can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.",
+                "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Domain Spells",
+            "source": "KC:MM",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonistic",
+            "subclassSource": "KC:MM",
+            "level": 1,
+            "entries": [
+                "You gain domain spells at the cleric levels listed in the Hedonistic Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+                {
+                    "type": "table",
+                    "caption": "Hedonistic Domain Spells",
+                    "colLabels": [
+                        "Cleric Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "{@spell dissonant whispers}, {@spell thunderwave}"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell gift of gab|AI}, {@spell Enthrall}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell Catnap|XGE}, {@spell Thunder Step|XGE}"
+                        ],
+                        [
+                            "7th",
+                            "{@spell compulsion}, {@spell confusion}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell dream}, {@spell modify memory}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Channel Divinity: Way to Passion",
+            "source": "KC:MM",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonistic",
+            "subclassSource": "KC:MM",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "{@i 2nd-level Hedonistic Domain feature}",
+                "Starting at 2nd level, you can use your Channel Divinity to sing the songs of the gods, invoking their powers.",
+                "You may  stir the muses within you and channel the divine songs that weave the weft of magic together that only the gods know. You may choose one of the songs listed below. As you travel, you may encounter other gods who will perhaps grant teach you their songs:",
+                "{@b Alaesia's Lullaby:} You and friendly creatures who can hear or see your performance within 30 feet regain 1d6 temporary hit points (they roll). ",
+                "The die increases to 1d8 at 9th level, 1d10 at 13th level, and 1d12 at 17th level. ",
+                "{@b Glasha's War Chant:} Any creature of your choice that can see or hear you within 30 feet of you must succeed a Wisdom saving throw against your DC or become Frightened until your next turn.",
+                "{@b Kamant's Idle Tune:} You are able to create one Medium or Small nonmagical item of your choice in an unoccupied space within 10 feet of you. The GP value cannot be more than 20 times your level. The item disappears after a number of hours equal to your proficiency bonus.",
+                "The size of the item you can create with this feature increases by one size category when you reach 6th level (Large) and 14th level (Huge)."
+            ]
+        },
+        {
+            "name": "Way to Rapture",
+            "source": "KC:MM",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonistic",
+            "subclassSource": "KC:MM",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "{@i 6th-level Hedonistic Domain feature}",
+                "Beginning at 6th level, your euphoric frenzy grows in power with the bonus die increasing to a {@dice 1d6} when you use Way of Euphoria.",
+                "Furthermore, you may use this ability during your turn as an action during combat. If you do so, until your next turn or you are incapacitated, all allies and you within 30 feet that can hear your performance have advantage on Saving Throws against being frightened or charmed."
+            ]
+        },
+        {
+            "name": "Potent Spellcasting",
+            "source": "KC:MM",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonistic",
+            "subclassSource": "KC:MM",
+            "level": 8,
+            "header": 2,
+            "entries": [
+                "{@i 8th-level Hedonistic Domain feature}",
+                "You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+            ]
+        },
+        {
+            "name": "Way to Paradise",
+            "source": "KC:MM",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonistic",
+            "subclassSource": "KC:MM",
+            "level": 17,
+            "header": 2,
+            "entries": [
+                "{@i 17th-level Hedonistic Domain feature}",
+                "At 17th level, your frenzy has reached its crescendo. The benefits of your Way to Euphoria and Way to Rapture features now work when the creatures are within 60 feet of each other.",
+                "Furthermore, you can end Charmed or Frightened conditions at a time to allies as your Bonus Action on your turn."
             ]
         }
     ]
